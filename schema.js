@@ -17,7 +17,7 @@ export const typeDefs = `#graphql
         verified: Boolean!
     }
 
-# compulsory-- Query
+# compulsory --Query "entry points"
     type Query{
         reviews: [Review]
         games: [Game]
